@@ -1,19 +1,19 @@
 # HaxBall NX
 
-Juego local de fútbol arcade para Nintendo Switch. Incluye fútbol, fútbol sala, hockey arcade, balonmano y el modo de cuatro porterías. Admite hasta ocho jugadores locales y completa con CPU los puestos libres. No tiene juego en línea.
+A local arcade football game for Nintendo Switch. It includes football, futsal, arcade hockey, handball, and Four Goals. Supports up to eight local players, with CPU players filling any open spots. There is no online play.
 
-## Compilar
+## Build
 
-Necesitas devkitPro con devkitA64, libnx y SDL2 para Switch. Desde la terminal MSYS2 de devkitPro, configura `DEVKITPRO` y `DEVKITA64` y ejecuta:
+Requires devkitPro with devkitA64, libnx, and SDL2 for Switch. From the devkitPro MSYS2 terminal, configure `DEVKITPRO` and `DEVKITA64`, then run:
 
 ```sh
 make
 ```
 
-El resultado es `HaxBall-NX.nro`.
+The build output is `HaxBall-NX.nro`.
 
-## Controles
+## Controls
 
-Mueve al jugador con el stick. Pulsa A para chutar; mantenerlo permite controlar y orientar el balón durante un instante. Los menús aceptan stick o cruceta y se pueden jugar con Joy-Con en horizontal.
+Move with the stick. Press A to shoot. Holding A briefly lets you control and aim the ball while moving; release to shoot. Menus work with the stick or D-pad, and Joy-Con can be used horizontally.
 
-Autor: Terremotix.
+Author: Terremotix.
