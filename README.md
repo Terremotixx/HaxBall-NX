@@ -1,47 +1,19 @@
 # HaxBall NX
 
-HaxBall NX is a local multiplayer arcade sports game for Nintendo Switch. Pick a side, choose an arena, and play with friends or CPU opponents.
+A local arcade football game for Nintendo Switch. It includes football, futsal, arcade hockey, handball, and Four Goals. Supports up to eight local players, with CPU players filling any open spots. There is no online play.
 
-There is no online mode.
+## Build
 
-## Game modes
-
-- Football
-- Futsal
-- Arcade hockey
-- Handball
-- Four Goals
-
-Matches support up to eight local players. CPU players fill any open spots.
-
-## Controllers
-
-Play with Joy-Con held horizontally, paired Joy-Con, or a standard controller. Menus work with the D-pad or either stick.
-
-Move with the stick. Press **A** to shoot. In most modes, holding **A** briefly lets you control and aim the ball while moving; release to shoot.
-
-## Download
-
-Get the latest Nintendo Switch build from the [v1.0.0 release](https://github.com/Terremotixx/HaxBall-NX/releases/tag/v1.0.0). The download is named `HaxBall-NX.nro`.
-
-## Build from source
-
-### Requirements
-
-- devkitPro with devkitA64 and libnx
-- SDL2 for Nintendo Switch
-- The devkitPro MSYS2 terminal
-
-Set `DEVKITPRO` and `DEVKITA64`, then run:
+Requires devkitPro with devkitA64, libnx, and SDL2 for Switch. From the devkitPro MSYS2 terminal, configure `DEVKITPRO` and `DEVKITA64`, then run:
 
 ```sh
 make
 ```
 
-The build creates `HaxBall-NX.nro`.
+The build output is `HaxBall-NX.nro`.
 
-## Project
+## Controls
 
-- Author: Terremotix
-- Version: 1.0.0
-- Languages: Spanish and English
+Move with the stick. Press A to shoot. Holding A briefly lets you control and aim the ball while moving; release to shoot. Menus work with the stick or D-pad, and Joy-Con can be used horizontally.
+
+Author: Terremotix.
